@@ -25,3 +25,40 @@ body {
     text-wrap: balance;
   }
 }
+
+.situation-wrap {
+  @apply flex flex-wrap;
+}
+
+.col-left {
+  @apply w-1/2;
+}
+
+.section-head {
+  @apply text-lg font-bold;
+}
+
+.text-wrap {
+  @apply text-base;
+}
+
+.col-right {
+  @apply w-1/2;
+}
+
+.video-section {
+  @apply relative;
+}
+
+.video-wrap {
+  @apply w-full h-full;
+}
+
+.yt-lite {
+  @apply w-full h-full bg-cover bg-center;
+  aspect-ratio: 56.25%;
+}
+
+.lty-playbtn {
+  @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
+}
