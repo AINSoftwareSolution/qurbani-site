@@ -1,11 +1,10 @@
 "use client";
 import React, { useState } from "react";
-// import Title from "../component/TItle";
 import { MdAddIcCall } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
 import { MdOutlineMarkEmailRead } from "react-icons/md";
 import Link from "next/link";
-// import { Button } from "../component";
+
 
 const Contact = () => {
   const [formData, setFormData] = useState({

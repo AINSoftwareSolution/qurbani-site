@@ -129,7 +129,7 @@ const Aqeeqa = () =>{
 {/* Section congrat */}
 <div className="bg-green-900 py-12">
   <div className="text-center">
-    <h2 className="text-4xl font-bold mb-2 ">MashaAllah, congratulations on the birth <br/> of your
+    <h2 className="text-4xl font-bold mb-2 text-white ">MashaAllah, congratulations on the birth <br/> of your
 new baby girl or boy!
 </h2>
   </div>
@@ -185,8 +185,37 @@ new baby girl or boy!
     </div>
   </div>
 </div>
-
 {/* About Foundation Aqeeqah end */}
+ 
+ {/* About Aqeeqah start */}
+ <div className="bg-green-900 text-white py-12">
+  <div className="container mx-auto text-center">
+    <h1 className="text-3xl font-bold mb-5">What is Aqeeqah?</h1>  
+  </div>
+  <div className="text-xl text-gray-100 leading-relaxed text-center px-8">
+    <p>
+      When a child is born, it is part of the Sunnah of the Prophet Muhammad (peace be upon him) to perform an Aqeeqah. This act expresses gratitude to Allah (SWT) for the blessing of a newborn child by sacrificing livestock, such as goats or sheep. The Aqeeqah is traditionally performed on the seventh day after a baby’s birth, though there is no issue in doing it at a later time.
+    </p>
+    <p className="mt-4">
+      The Prophet Muhammad (peace be upon him) performed Aqeeqah for newborns as an act of protection and gratitude. According to the Sunnah, one animal is sacrificed for the birth of a baby girl, and two animals are sacrificed for a baby boy. The Prophet also provided an Aqeeqah for his two grandsons, Imam al-Hasan and Imam al-Husain.
+    </p>
+  </div>
+</div>
+ {/* About Aqeeqah End  */}
+
+ {/* Importance of Aqeeqah start */}
+ <div className="bg-white textwhite text-center py-12">
+  <div className="container mx-auto text-center">
+    <h1  className="text-3xl font-bold mb-5">Importance of Aqeeqah</h1>
+  </div>
+  <div className="text-xl text-gray-900 leading-relaxed text-center px-8">
+    <p>At My Foundation, we are dedicated to serving and supporting the most vulnerable in the Horn of Africa. There are millions in this region who endure poverty, drought, malnutrition, and even starvation. Through your Aqeeqah donation, you not only provide families with a nutritious meal but also give them the opportunity to share in the celebration of a new life and to make duaa for you and your baby. The reward of this beloved Sunnah benefits so many.
+
+</p>
+    </div>
+
+ </div>
+ {/* importance of aqeeqah end  */}
         </div>
     )
 }
