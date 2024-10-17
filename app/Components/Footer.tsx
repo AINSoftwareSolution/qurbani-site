@@ -1,8 +1,6 @@
 "use client";
 import Link from 'next/link'
 import React from 'react'
-import Image from 'next/image'
-
 
 const Footer = () => {
   return (
@@ -31,18 +29,15 @@ const Footer = () => {
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
               <Link href="#" className="flex items-center">
-                {/* <Image
-                  src={LogoImg}
-                  className="w-28 h-auto object-contain"
-                  alt="Daulat Cars Logo" /> */}
+               {/* logo Image */}
               </Link>
-              <div className="flex space-x-4 font-bold mt-4 text-gray-500 dark:text-gray-400 font-medium">
+              <div className="flex space-x-4 font-bold mt-4 text-gray-500 dark:text-gray-400">
                 {/* <div className="text-2xl text-green-900">
 
                   <MdAddIcCall /> */}
                 </div>
                 <div>
-                  <p className="text-gray-500 font-bold text-gray-500 dark:text-gray-400 font-medium mb-4">+919764021786 / +917264021786</p>
+                  <p className="text-gray-500 font-bold  dark:text-gray-400 mb-4">+919764021786 / +917264021786</p>
                 </div>
               </div>
               <div className="flex space-x-4">
@@ -53,7 +48,7 @@ const Footer = () => {
                   <p>
                     <Link
                       href="mailto:daulatcars@gmail.com"
-                      className="text-gray-500 font-bold text-gray-500 dark:text-gray-400 font-medium mb-4"
+                      className="text-gray-500 font-bold dark:text-gray-400 mb-4"
                     >
                       daulatcars@gmail.com
                     </Link>
@@ -66,7 +61,7 @@ const Footer = () => {
 
                 </div> */}
                 <div>
-                  <p className="text-gray-500 font-bold text-gray-500 dark:text-gray-400 font-medium mb-4">
+                  <p className="text-gray-500 font-bold dark:text-gray-400 mb-4">
                     Ambedkar Housing Society ,Golf Club Rd beside Ambedkar<br />
                     Function Hall, Dr Ambedkar Co Oprative Society, Yerawada<br />
                     Pune Maharashtra - 411006, Maharashtra India.

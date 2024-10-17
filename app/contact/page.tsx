@@ -48,8 +48,7 @@ const Contact = () => {
   return (
     <div className="bg-gray-100 dark:bg-gray-900 overflow-hidden mt-8">
       <div className="container inset-0 mx-auto px-2 lg:px-12 py-16 mt-4 font-bold text-gray-900 dark:text-white" id="contact">
-        {/* <Title heading="Contact us" subheading="Reach us easily by completing the form or finding our address" /> */}
-        <h2 className=" text-center mb-10 text-3xl font-black mb-3 font-bold text-gray-900 dark:text-white"> Contact us </h2>
+        <h2 className=" text-center text-3xl mb-3 font-bold text-gray-900 dark:text-white"> Contact us </h2>
         <h4 className=" text-center mb-10 text-sm uppercase tracking-wider font-bold text-gray-900 dark:text-white">Reach us easily by completing the form or finding our address </h4>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="space-y-8 font-bold text-gray-900 dark:text-white">
@@ -58,23 +57,23 @@ const Contact = () => {
               <div className="text-3xl"><MdAddIcCall />
               </div>
               <div>
-                <h2 className="text-2xl font-bold text-[#2e1760] text-gray-900 dark:text-white">Call Anytime</h2>
-                <p className="text-gray-700 font-bold mb-4 text-gray-900 dark:text-white">+0000000000</p>
+                <h2 className="text-2xl font-bold text-gray-900 dark:text-white">Call Anytime</h2>
+                <p className="font-bold mb-4 text-gray-900 dark:text-white">+0000000000</p>
               </div>
             </div>
             {/* Location */}
             <div className="flex space-x-4 mb-3 text-gray-900 dark:text-white">
               <div className="text-3xl"><FaLocationDot /></div>
               <div>
-                <h2 className="text-2xl font-bold text-[#2e1760] text-gray-900 dark:text-white">Location:</h2>
-                <p className="text-gray-700 font-semibold mb-4 text-gray-900 dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, dolore?</p>
+                <h2 className="text-2xl font-bold text-gray-900 dark:text-white">Location:</h2>
+                <p className="font-semibold mb-4 text-gray-900 dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, dolore?</p>
               </div>
             </div>
             {/* Email */}
             <div className="flex space-x-4">
               <div className="text-3xl"><MdOutlineMarkEmailRead /></div>
               <div>
-                <h2 className="text-2xl font-bold text-[#2e1760] text-gray-900 dark:text-white">Email Address:</h2>
+                <h2 className="text-2xl font-bold text-gray-900 dark:text-white">Email Address:</h2>
                 <p><Link href="mailto:daulatcars@gmail.com" className="text-blue hover:underline">examples@gmail.com</Link></p>
               </div>
             </div>
@@ -149,8 +148,12 @@ const Contact = () => {
                 ></textarea>
               </div>
 
-              <button type="button" className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Submit</button>
-              </form>
+              <button
+                type="button"
+                className="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-bold rounded-lg text-md px-8 py-2.5 text-center mb-2"
+              >
+                Submit 
+              </button>              </form>
           </div>
         </div>
       </div>

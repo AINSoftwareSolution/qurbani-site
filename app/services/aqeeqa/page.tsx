@@ -38,16 +38,16 @@ const Aqeeqa = () =>{
 
     <div className="bg-gray-200">
       <div className="container mx-auto p-6">
-        <div className="flex justify-between gap-8 max-w-6xl mx-auto">
+        <div className="flex justify-between gap-8 max-w-8xl mx-4">
           
           {/* Left Column: Text */}
-          <div className="w-full md:w-1/2 bg-white p-8 rounded-lg shadow-lg">
+          <div className="w-full md:w-1/2 bg-white p-8 rounded-md shadow-lg  ">
             <h4 className="text-3xl font-bold mb-4 text-center">About Aqeeqah</h4>
             <p className="text-gray-700 mb-4">
               Aqeeqah is a symbolic Islamic sacrifice performed in gratitude for the birth of a child. It involves the slaughter of an animal and is typically done on the 7th day after the birth of the baby.
             </p>
             <p className="text-gray-700">
-              By donating, you can support this tradition, whether it's for a boy or a girl, and help provide for those in need.
+              By donating, you can support this tradition, whether it "&apos;" s for a boy or a girl, and help provide for those in need.
             </p>
           </div>
 
@@ -116,9 +116,10 @@ const Aqeeqa = () =>{
 
             {/* Donate Button */}
             <div className="text-center">
-              <button className="bg-yellow-500 text-white px-6 py-2 rounded-lg shadow-lg">
-                <span className="fa fa-usd mr-2" aria-hidden="true"></span>DONATE NOW
-              </button>
+              
+              <button type="button" className="text-white bg-gradient-to-br text-lg font-bold w-80 py-3 me-2 mb-2 from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800  rounded-lg text-center"> 
+              <span className="fa fa-usd mr-2" aria-hidden="true"></span> View Bank List</button>
+
             </div>
           </div>
 
@@ -139,7 +140,7 @@ new baby girl or boy!
       <h3 className="text-2xl text-center text-yellow-400 mb-2">Boy</h3>
       <h3 className="text-2xl text-center text-yellow-400 mt-2">$200</h3>
       <div className="text-center">
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mt-4 rounded-full" id="209,0">Donate Now</button>
+      <button type="button" className="text-white bg-gradient-to-br from-green-400 to-blue-600 mt-3 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Qurbani</button>
       </div>
     </div>
     <div className="w-full md:w-1/3 xl:w-1/3 p-6">
@@ -147,7 +148,7 @@ new baby girl or boy!
       <h3 className="text-2xl text-center text-yellow-400 mb-2">Girl</h3>
       <h3 className="text-2xl text-center text-yellow-400 mt-2">$100</h3>
       <div className="text-center">
-        <button className="bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 mt-4 rounded-full" id="210,0">Donate Now</button>
+      <button type="button" className="text-white bg-gradient-to-br from-green-400 to-blue-600 mt-3 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Qurbani</button>
       </div>
     </div>
   </div>
@@ -160,22 +161,22 @@ new baby girl or boy!
     <div className="flex flex-wrap items-center">
       {/* Text Content */}
       <div className="w-full md:w-1/2 pr-4 pl-4 mt-8">
-        <h1 className="text-3xl font-bold mb-5 text-black">
+        <h1 className="text-3xl font-bold mb-5 text-black mx-4">
           Your Aqeeqah with my Foundation
         </h1>
-        <p className="text-xl text-gray-700 leading-relaxed">
+        <p className="text-xl text-gray-700 leading-relaxed mx-4">
           At My Foundation, your Aqeeqah is an amana (a trust) that we take
           seriously. Each Aqeeqah is considered sacred, and strict halal
           guidelines are followed. Every Aqeeqah amana will take place within a
-          week of your donation. The meat will provide 75 meals for a girl's
-          Aqeeqah and 150 meals for a boy's Aqeeqah to those in need. All
+          week of your donation. The meat will provide 75 meals for a girl"&apos;"s
+          Aqeeqah and 150 meals for a boy "&apos;"s Aqeeqah to those in need. All
           sacrifices occur in Somalia and Ethiopia. Amoud promises to deliver
           meals to the vulnerable and orphans, increasing your blessings.
         </p>
       </div>
 
       {/* Image Section */}
-      <div className="w-full md:w-1/2 pl-4 mt-8">
+      <div className="w-full md:w-1/2 pl-4 mt-8 pr-4">
         <Image
           src={AqeeqaImg}
           alt="Aqeeqah Foundation"
@@ -192,9 +193,9 @@ new baby girl or boy!
   <div className="container mx-auto text-center">
     <h1 className="text-3xl font-bold mb-5">What is Aqeeqah?</h1>  
   </div>
-  <div className="text-xl text-gray-100 leading-relaxed text-center px-8">
+  <div className="text-xl text-gray-100 leading-relaxed text-center mx-8">
     <p>
-      When a child is born, it is part of the Sunnah of the Prophet Muhammad (peace be upon him) to perform an Aqeeqah. This act expresses gratitude to Allah (SWT) for the blessing of a newborn child by sacrificing livestock, such as goats or sheep. The Aqeeqah is traditionally performed on the seventh day after a baby’s birth, though there is no issue in doing it at a later time.
+      When a child is born, it is part of the Sunnah of the Prophet Muhammad (peace be upon him) to perform an Aqeeqah. This act expresses gratitude to Allah (SWT) for the blessing of a newborn child by sacrificing livestock, such as goats or sheep. The Aqeeqah is traditionally performed on the seventh day after a baby "&apos;" s birth, though there is no issue in doing it at a later time.
     </p>
     <p className="mt-4">
       The Prophet Muhammad (peace be upon him) performed Aqeeqah for newborns as an act of protection and gratitude. According to the Sunnah, one animal is sacrificed for the birth of a baby girl, and two animals are sacrificed for a baby boy. The Prophet also provided an Aqeeqah for his two grandsons, Imam al-Hasan and Imam al-Husain.
@@ -208,7 +209,7 @@ new baby girl or boy!
   <div className="container mx-auto text-center">
     <h1  className="text-3xl font-bold mb-5">Importance of Aqeeqah</h1>
   </div>
-  <div className="text-xl text-gray-900 leading-relaxed text-center px-8">
+  <div className="text-xl text-gray-900 leading-relaxed text-center mx-12">
     <p>At My Foundation, we are dedicated to serving and supporting the most vulnerable in the Horn of Africa. There are millions in this region who endure poverty, drought, malnutrition, and even starvation. Through your Aqeeqah donation, you not only provide families with a nutritious meal but also give them the opportunity to share in the celebration of a new life and to make duaa for you and your baby. The reward of this beloved Sunnah benefits so many.
 
 </p>
@@ -219,4 +220,5 @@ new baby girl or boy!
         </div>
     )
 }
+
 export default Aqeeqa; 
