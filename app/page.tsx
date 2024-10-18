@@ -214,7 +214,7 @@ const Home = () => {
         Why Donate Qurbani With Us
       </h2>
       <p className="text-base md:text-lg text-center md:text-left mx-8">
-        Support this Foundation "&apos;" s Qurbani campaign to alleviate hunger among the needy. Your generous donation will provide nutritious meat to impoverished families, orphan children, and homeless individuals. For many of them, Eid-ul-Adha is the only occasion to savor meat throughout the year. Join us in making a meaningful impact and spreading joy this Eid-ul-Adha by donating to our Qurbani program.
+        Support this Foundation &apos; s Qurbani campaign to alleviate hunger among the needy. Your generous donation will provide nutritious meat to impoverished families, orphan children, and homeless individuals. For many of them, Eid-ul-Adha is the only occasion to savor meat throughout the year. Join us in making a meaningful impact and spreading joy this Eid-ul-Adha by donating to our Qurbani program.
       </p>
     </div>
     <div className="qurbani-donate-tabs flex flex-col md:flex-row items-center md:items-start justify-center">

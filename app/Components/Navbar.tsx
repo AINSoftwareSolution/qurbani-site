@@ -2,21 +2,9 @@
 import React from "react";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import Link from "next/link";
-// import { AppDispatch } from "../state/store";
-// import { toggleModal } from "../state/slice/modalSlice";
 
 const Navbar = () => {
   
-
-
-  function dispatch(arg0: any): void {
-    throw new Error("Function not implemented.");
-  }
-
-  function toggleModal(): any {
-    throw new Error("Function not implemented.");
-  }
-
   return (
     <div className="bg-white shadow-sm">
       <div className="container mx-auto px-2 py-4 lg:px-12 flex items-center justify-between">
@@ -87,7 +75,6 @@ const Navbar = () => {
             </li>
             <li> 
     <button
-        onClick={() => dispatch(toggleModal())}
         type="button"
         className="py-2 px-4 text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-bold rounded-lg text-md text-center"
     >
