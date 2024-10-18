@@ -47,7 +47,7 @@ const Aqeeqa = () =>{
               Aqeeqah is a symbolic Islamic sacrifice performed in gratitude for the birth of a child. It involves the slaughter of an animal and is typically done on the 7th day after the birth of the baby.
             </p>
             <p className="text-gray-700">
-              By donating, you can support this tradition, whether it "&apos;" s for a boy or a girl, and help provide for those in need.
+              By donating, you can support this tradition, whether it &apos; s for a boy or a girl, and help provide for those in need.
             </p>
           </div>
 
@@ -168,8 +168,8 @@ new baby girl or boy!
           At My Foundation, your Aqeeqah is an amana (a trust) that we take
           seriously. Each Aqeeqah is considered sacred, and strict halal
           guidelines are followed. Every Aqeeqah amana will take place within a
-          week of your donation. The meat will provide 75 meals for a girl"&apos;"s
-          Aqeeqah and 150 meals for a boy "&apos;"s Aqeeqah to those in need. All
+          week of your donation. The meat will provide 75 meals for a girl &apos;s
+          Aqeeqah and 150 meals for a boy &apos;s Aqeeqah to those in need. All
           sacrifices occur in Somalia and Ethiopia. Amoud promises to deliver
           meals to the vulnerable and orphans, increasing your blessings.
         </p>
@@ -195,7 +195,7 @@ new baby girl or boy!
   </div>
   <div className="text-xl text-gray-100 leading-relaxed text-center mx-8">
     <p>
-      When a child is born, it is part of the Sunnah of the Prophet Muhammad (peace be upon him) to perform an Aqeeqah. This act expresses gratitude to Allah (SWT) for the blessing of a newborn child by sacrificing livestock, such as goats or sheep. The Aqeeqah is traditionally performed on the seventh day after a baby "&apos;" s birth, though there is no issue in doing it at a later time.
+      When a child is born, it is part of the Sunnah of the Prophet Muhammad (peace be upon him) to perform an Aqeeqah. This act expresses gratitude to Allah (SWT) for the blessing of a newborn child by sacrificing livestock, such as goats or sheep. The Aqeeqah is traditionally performed on the seventh day after a baby &apos; s birth, though there is no issue in doing it at a later time.
     </p>
     <p className="mt-4">
       The Prophet Muhammad (peace be upon him) performed Aqeeqah for newborns as an act of protection and gratitude. According to the Sunnah, one animal is sacrificed for the birth of a baby girl, and two animals are sacrificed for a baby boy. The Prophet also provided an Aqeeqah for his two grandsons, Imam al-Hasan and Imam al-Husain.
