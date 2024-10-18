@@ -1,10 +1,12 @@
 "use client";
 import Link from 'next/link'
 import React from 'react'
+import { FaLocationDot } from 'react-icons/fa6';
+import { MdAddIcCall, MdOutlineMarkEmailRead } from 'react-icons/md';
 
 const Footer = () => {
   return (
-    <div className={`subscribe bg-gray-900 overflow-hidden border-t border-gray- 'hidden' : ''}` }>
+    <div className={`subscribe bg-gray-900 overflow-hidden border-t border-gray-200 'hidden' : ''}` }>
       <div className="container inset-0 mx-auto px-2 py-8 lg:px-12 lg:py-4 rounded text-center overflow-hidden ">
         <h6 className="text-3xl font-bold my-4 text-white ">Submit Newsletters</h6>
         <p className="text-gray-600 mb-4 text-center">
@@ -19,7 +21,7 @@ const Footer = () => {
               {/* <Button title={"Subscribe"} link={"/#"} /> */}
           </div>
         </div>
-        <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
       </div>
 
       {/* news letter end  */}
@@ -31,23 +33,25 @@ const Footer = () => {
               <Link href="#" className="flex items-center">
                {/* logo Image */}
               </Link>
-              <div className="flex space-x-4 font-bold mt-4 text-gray-500 dark:text-gray-400">
-                {/* <div className="text-2xl text-green-900">
+              <div className="flex space-x-4 font-bold mt-4 text-gray-500">
+                <div className="text-2xl text-white">
 
-                  <MdAddIcCall /> */}
+                  <MdAddIcCall /> 
                 </div>
+                
                 <div>
-                  <p className="text-gray-500 font-bold  dark:text-gray-400 mb-4">+919764021786 / +917264021786</p>
+                  <p className="text-gray-500 font-bold mb-4">+910000000 / +9100000786</p>
                 </div>
               </div>
+              </div>
               <div className="flex space-x-4">
-                {/* <div className="text-2xl text-green-900 mb-4">
+                <div className="text-2xl text-white mb-4">
                   <MdOutlineMarkEmailRead />
-                </div> */}
+                </div>
                 <div>
                   <p>
                     <Link
-                      href="mailto:daulatcars@gmail.com"
+                      href="mailto:qurbani@gmail.com"
                       className="text-gray-500 font-bold dark:text-gray-400 mb-4"
                     >
                       daulatcars@gmail.com
@@ -56,12 +60,12 @@ const Footer = () => {
                 </div>
               </div>
               <div className="flex space-x-4 mb-3">
-                {/* <div className="text-2xl text-green-900">
+                <div className="text-2xl text-white">
                   <FaLocationDot />
 
-                </div> */}
+                </div>
                 <div>
-                  <p className="text-gray-500 font-bold dark:text-gray-400 mb-4">
+                  <p className="text-gray-500 font-bold mb-4">
                     Ambedkar Housing Society ,Golf Club Rd beside Ambedkar<br />
                     Function Hall, Dr Ambedkar Co Oprative Society, Yerawada<br />
                     Pune Maharashtra - 411006, Maharashtra India.
@@ -113,9 +117,11 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-          <div className="sm:flex sm:items-center sm:justify-between">
-            <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <Link href="#" className="hover:underline">Daulat Cars </Link>. All Rights Reserved.
+
+         <div className="container inset-0 mx-auto px-2 py-8 lg:px-12 lg:py-4 rounded text-center overflow-hidden ">
+          <hr className="my-4 border-gray-200 sm:mx-auto lg:my-8" />
+          <div className="sm:flex sm:items-center sm:justify-between mb-4">
+            <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <Link href="#" className="hover:underline">qurbani.com </Link>. All Rights Reserved.
             </span>
             <div className="flex mt-4 sm:justify-center sm:mt-0">
               <Link href="https://www.facebook.com/people/Mudassar-Shaikh/100083367522006/?mibextid=ZbWKwL" target='_blank' className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
@@ -149,6 +155,7 @@ const Footer = () => {
                 <span className="sr-only">Dribbble account</span>
               </Link>
             </div>
+          </div>
           </div>
         </div>
       </div>

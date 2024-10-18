@@ -10,14 +10,14 @@ const Home = () => {
 
   return (   
     <div>
-   <section className="relative w-full bg-gray-200 dark:bg-gray-900 overflow-hidden ptablet:max-h-[1100px]">
+   <section className="relative w-full bg-gray-200 overflow-hidden ptablet:max-h-[1100px]">
   <div className="relative container mx-auto px-4 py-8 lg:px-12 lg:py-4 flex items-center min-h-screen">
     <div className="w-full">
       <div className="grid grid-cols-12 gap-6">
         {/* Text Section */}
         <div className="col-span-12 md:col-span-7 h-full flex items-center">
           <div className="w-full text-center md:text-left">
-            <h1 className="font-sans font-light text-3xl sm:text-4xl md:text-5xl lg:text-7xl leading-tight text-gray-800 dark:text-white">
+            <h1 className="font-sans font-light text-3xl sm:text-4xl md:text-5xl lg:text-7xl leading-tight dark:text-white">
               Online Booking Qurbani
             </h1>
             <p className="font-sans text-sm sm:text-base md:text-lg text-gray-500 dark:text-gray-300 my-4">
