@@ -10,8 +10,8 @@ const Faq = () => {
   };
 
   return (
-    <div className="bg-green-900">
-    <div className="container mx-auto p-4 mb-12">
+    <div className="bg-green-900 ">
+    <div className="container mx-auto p-4">
       <h1 className="text-4xl font-bold mb-5 text-center text-white mt-4">Frequently Asked Question</h1>
       <div className="flex justify-end mt-12 mx-8">
         <div className="accordion-group w-full"> 

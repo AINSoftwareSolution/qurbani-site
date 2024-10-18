@@ -45,33 +45,33 @@ const Contact = () => {
   };
 
   return (
-    <div className="bg-gray-100 dark:bg-gray-900 overflow-hidden mt-8">
-      <div className="container inset-0 mx-auto px-2 lg:px-12 py-16 mt-4 font-bold text-gray-900 dark:text-white" id="contact">
-        <h2 className=" text-center text-3xl mb-3 font-bold text-gray-900 dark:text-white"> Contact us </h2>
-        <h4 className=" text-center mb-10 text-sm uppercase tracking-wider font-bold text-gray-900 dark:text-white">
+    <div className="bg-gray-100 overflow-hidden mt-8">
+      <div className="container inset-0 mx-auto px-2 lg:px-12 py-16 mt-4 " id="contact">
+        <h2 className=" text-center text-3xl mb-3 font-bold"> Contact us </h2>
+        <h4 className=" text-center mb-10 text-sm uppercase tracking-wider font-bold ">
           Reach us easily by completing the form or finding our address 
         </h4>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div className="space-y-8 font-bold text-gray-900 dark:text-white">
+          <div className="space-y-8 font-bold ">
             {/* Contact Information */}
-            <div className="flex space-x-4 font-bold text-gray-900 dark:text-white">
+            <div className="flex space-x-4 font-bold ">
               <div className="text-3xl">
                 <MdAddIcCall />
               </div>
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 dark:text-white">Call Anytime</h2>
-                <p className="font-bold mb-4 text-gray-900 dark:text-white">+0000000000</p>
+                <h2 className="text-2xl font-bold ">Call Anytime</h2>
+                <p className="font-bold mb-4 ">+0000000000</p>
               </div>
             </div>
 
             {/* Location */}
-            <div className="flex space-x-4 mb-3 text-gray-900 dark:text-white">
+            <div className="flex space-x-4 mb-3 ">
               <div className="text-3xl">
                 <FaLocationDot />
               </div>
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 dark:text-white">Location:</h2>
-                <p className="font-semibold mb-4 text-gray-900 dark:text-white">
+                <h2 className="text-2xl font-bold ">Location:</h2>
+                <p className="font-semibold mb-4 ">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, dolore?
                 </p>
               </div>
@@ -83,7 +83,7 @@ const Contact = () => {
                 <MdOutlineMarkEmailRead />
               </div>
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 dark:text-white">Email Address:</h2>
+                <h2 className="text-2xl font-bold">Email Address:</h2>
                 <p>
                   <Link href="mailto:daulatcars@gmail.com" className="text-blue hover:underline">
                     examples@gmail.com
@@ -98,7 +98,7 @@ const Contact = () => {
             <form className="space-y-4 text-gray-700" onSubmit={handleSubmit}>
               <div className="flex space-x-4">
                 <div className="relative w-1/2">
-                  <label className="block mb-1 text-gray-700 dark:text-white">
+                  <label className="block mb-1 text-gray-700 dark:text-white font-semibold">
                     First Name<span className="text-red-500">*</span>
                   </label>
                   <input
@@ -112,7 +112,7 @@ const Contact = () => {
                   />
                 </div>
                 <div className="relative w-1/2">
-                  <label className="block mb-1 text-gray-700 dark:text-white">
+                  <label className="block mb-1 text-gray-700 font-semibold">
                     Last Name<span className="text-red-500">*</span>
                   </label>
                   <input
@@ -129,7 +129,7 @@ const Contact = () => {
 
               <div className="flex space-x-4">
                 <div className="relative w-1/2">
-                  <label className="block mb-1 text-gray-700 dark:text-white">
+                  <label className="block mb-1 text-gray-700 font-semibold">
                     Contact<span className="text-red-500">*</span>
                   </label>
                   <input
@@ -143,7 +143,7 @@ const Contact = () => {
                   />
                 </div>
                 <div className="relative w-1/2">
-                  <label className="block mb-1 text-gray-700 dark:text-white">
+                  <label className="block mb-1 text-gray-700 font-semibold">
                     Email<span className="text-red-500">*</span>
                   </label>
                   <input
@@ -159,7 +159,7 @@ const Contact = () => {
               </div>
 
               <div className="relative w-full">
-                <label className="block mb-1 text-gray-700 dark:text-white">
+                <label className="block mb-1 text-gray-700 font-semibold">
                   Message<span className="text-red-500">*</span>
                 </label>
                 <textarea
