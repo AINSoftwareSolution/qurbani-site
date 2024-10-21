@@ -126,32 +126,38 @@ const Home = () => {
 
       {/* Introduction section start */}
       <div className="container mx-auto p-4 pt-8 mb-8">
-        <div className="flex flex-col md:flex-row situation-wrap mb-12 mx-8">
-          {/* Left Column: Text Section */}
-          <div className="w-full md:w-1/2 col-left mb-8 md:mb-0 ">
-            <div className="text-4xl font-bold mt-4 mb-5 section-head ">
-              <h1 className="text-4xl font-bold mt-4 mb-5">Introduction</h1>
-            </div>
-            <div className="text-lg text-wrap">
-              <p className="text-xl text-gray-700 leading-relaxed">
-                Qurbani is a great Sunnah of Ibrahim (AS) and the dearest deed to Allah (SWT).
-                As you are preparing to commemorate Prophet Ibrahim (AS) dedication through Qurbani on this Eid-ul-Adha.
-                Alkhidmat urges you to remember millions of underprivileged and undernourished families in Pakistan who eagerly await Eid-ul-Adha throughout the whole year to eat nutritious meat.
-                Alkhidmat Foundation Pakistan is doing Qurbani Fi Sabeel Lillah to distribute nutritious meat to millions of underprivileged and undernourished Pakistanis on this Eid-ul-Adha.
-                This year, Alkhidmat is also doing Qurbani specifically for the oppressed Palestinian families in Gaza.
-                Take advantage of Alkhidmat online Qurbani Fi Sabeel Lillah.
-              </p>
-            </div>
-          </div>
-
-          {/* Right Column: Image Section */}
-          <div className="w-full md:w-1/2 col-right video-section pl-0 md:pl-4 mt-8 md:mt-0">
-            <div className="w-full h-full mt-4 mb-5">
-              <Image src={IntroductionImg} alt="Introduction" className="w-full h-full object-cover rounded-lg transition-transform duration-300 hover:scale-105" />
-            </div>
-          </div>
-        </div>
+  <div className="flex flex-col md:flex-row situation-wrap mb-12 mx-8">
+    {/* Left Column: Text Section */}
+    <div className="w-full md:w-1/2 col-left mb-8 md:mb-0">
+      <div className="text-4xl font-bold mt-4 mb-5 section-head">
+        <h1 className="text-4xl font-bold mt-4 mb-5">Introduction</h1>
       </div>
+      <div className="text-lg text-wrap">
+        <p className="text-xl text-gray-700 leading-relaxed">
+          Qurbani is a great Sunnah of Ibrahim (AS) and the dearest deed to Allah (SWT).
+          As you are preparing to commemorate Prophet Ibrahim (AS) dedication through Qurbani on this Eid-ul-Adha.
+          Alkhidmat urges you to remember millions of underprivileged and undernourished families in Pakistan who eagerly await Eid-ul-Adha throughout the whole year to eat nutritious meat.
+          Alkhidmat Foundation Pakistan is doing Qurbani Fi Sabeel Lillah to distribute nutritious meat to millions of underprivileged and undernourished Pakistanis on this Eid-ul-Adha.
+          This year, Alkhidmat is also doing Qurbani specifically for the oppressed Palestinian families in Gaza.
+          Take advantage of Alkhidmat online Qurbani Fi Sabeel Lillah.
+        </p>
+      </div>
+    </div>
+
+    {/* Right Column: Image Section */}
+    <div className="w-full md:w-1/2 col-right video-section pl-0 md:pl-4 mt-8 md:mt-0">
+      <div className="w-full h-auto mt-4 mb-5">
+        <Image 
+          src={IntroductionImg} 
+          alt="Introduction" 
+          className="w-full h-auto object-contain rounded-lg"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
       {/* introduction section end  */}
 

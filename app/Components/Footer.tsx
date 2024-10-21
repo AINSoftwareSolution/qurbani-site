@@ -13,7 +13,7 @@ const Footer = () => {
         Sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr <br /> 
         sed diam nonumy sanctus est Lorem ipsum dolor sit amet.
       </p>
-      <div className="flex justify-center mb-5">
+      <div className="flex justify-center mb-5 px-4">
         <div className="w-full md:w-2/5 flex mb-5">
           <input
             type="email"
@@ -31,7 +31,7 @@ const Footer = () => {
       </div>
       <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
     </div>
-      <div className=" bg-slate-900 footer">
+      <div className=" bg-slate-900 footer px-4 ">
         <div className="container inset-0 mx-auto px-2 py-8 lg:px-12 lg:py-4">
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
