@@ -6,26 +6,31 @@ import { MdAddIcCall, MdOutlineMarkEmailRead } from 'react-icons/md';
 
 const Footer = () => {
   return (
-    <div className={`subscribe bg-gray-900 overflow-hidden border-t border-gray-200 'hidden' : ''}` }>
-      <div className="container inset-0 mx-auto px-2 py-8 lg:px-12 lg:py-4 rounded text-center overflow-hidden ">
-        <h6 className="text-3xl font-bold my-4 text-white ">Submit Newsletters</h6>
-        <p className="text-gray-600 mb-4 text-center">
-          Sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr <br /> sed diam nonumy sanctus est Lorem ipsum dolor sit amet.
-        </p>
-        <div className="flex justify-center mb-5">
-          <div className="w-full md:w-2/5 flex mb-5">
-            <input
-              type="text"
-              className="form-control w-full py-3 px-4 border border-gray-300 rounded-l"
-              placeholder="Enter Your Email" />
-              {/* <Button title={"Subscribe"} link={"/#"} /> */}
-          </div>
+    <div className={`subscribe bg-gray-900 overflow-hidden border-t border-gray-200`}>
+    <div className="container inset-0 mx-auto px-2 py-8 lg:px-12 lg:py-4 rounded text-center overflow-hidden">
+      <h6 className="text-3xl font-bold my-4 text-white">Submit Newsletters</h6>
+      <p className="text-gray-600 mb-4 text-center">
+        Sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr <br /> 
+        sed diam nonumy sanctus est Lorem ipsum dolor sit amet.
+      </p>
+      <div className="flex justify-center mb-5">
+        <div className="w-full md:w-2/5 flex mb-5">
+          <input
+            type="email"
+            className="form-control w-full py-3 px-4 border border-gray-300 rounded-lg"
+            placeholder="Enter Your Email"
+            aria-label="Email Address"
+          />
+          <button
+            type="button"
+            className="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-bold rounded-lg text-md py-3 px-4 text-center"
+          >
+            Subscribe
+          </button>
         </div>
-        <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
       </div>
-
-      {/* news letter end  */}
-
+      <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
+    </div>
       <div className=" bg-slate-900 footer">
         <div className="container inset-0 mx-auto px-2 py-8 lg:px-12 lg:py-4">
           <div className="md:flex md:justify-between">
@@ -66,10 +71,9 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-gray-500 font-bold mb-4">
-                    Ambedkar Housing Society ,Golf Club Rd beside Ambedkar<br />
-                    Function Hall, Dr Ambedkar Co Oprative Society, Yerawada<br />
-                    Pune Maharashtra - 411006, Maharashtra India.
-                  </p>
+                    Ambedkar Housing Society ,Golf Club Rd beside Ambedkar
+                   </p>
+                    
                 </div>
               </div>
             </div>

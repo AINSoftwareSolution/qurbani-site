@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { BuffaloImg, GoatImg, IntroductionImg , DonateImg} from "./utilis/Images";
+import { BuffaloImg, GoatImg, IntroductionImg , DonateImg, BannerImg} from "./utilis/Images";
 import Link from "next/link";
 import Faq from "./Components/Faq";
 
@@ -9,45 +9,54 @@ const Home = () => {
 
 
   return (   
-    <div>
-   <section className="relative w-full bg-gray-200 overflow-hidden ptablet:max-h-[1100px]">
-  <div className="relative container mx-auto px-4 py-8 lg:px-12 lg:py-4 flex items-center min-h-screen">
-    <div className="w-full">
-      <div className="grid grid-cols-12 gap-6">
-        {/* Text Section */}
-        <div className="col-span-12 md:col-span-7 h-full flex items-center">
-          <div className="w-full text-center md:text-left">
-            <h1 className="font-sans font-light text-3xl sm:text-4xl md:text-5xl lg:text-7xl leading-tight dark:text-white">
-              Online Booking Qurbani
-            </h1>
-            <p className="font-sans text-sm sm:text-base md:text-lg text-gray-500 dark:text-gray-300 my-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ex ea
-              difficultate illae fallaciloquae, ut ait adipiscing elit.
-            </p>
-            <div className="flex flex-col md:flex-row justify-center md:justify-start items-center gap-4 md:gap-8 mt-4">
-              <button
-                type="button"
-                className="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-bold rounded-lg text-md px-8 py-2.5 text-center mb-2"
-              >
-                Qurbani
-              </button>
-              <button
-                type="button"
-                className="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-bold rounded-lg text-md px-8 py-2.5 text-center mb-2"
-              >
-                Aqeeqah
-              </button>
-            </div>
-          </div>
+    <>
+<section className="relative w-full ptablet:max-h-[1100px] mb-12">
+  <div 
+    className="relative mx-auto flex items-center justify-center min-h-screen bg-cover bg-center"
+    style={{
+      backgroundImage: `url(${BannerImg.src})`,
+      backgroundSize: 'cover', // Ensures the image covers the section
+      backgroundPosition: 'center', // Centers the image
+    }}
+  >
+    <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/30"></div>
+    
+    <div className="relative w-full flex items-center justify-center bg-opacity-70">
+      {/* Text Section */}
+      <div className="text-center relative z-10 max-w-3xl p-4 md:p-8">
+        <h1 className="font-sans text-4xl sm:text-5xl md:text-6xl leading-tight text-white font-bold">
+          Online Booking Qurbani and Aqeeqah
+        </h1>
+        <p className="font-sans text-base sm:text-lg md:text-xl text-white my-4">
+          Experience a seamless and fulfilling process for your Qurbani and Aqeeqah needs.
+        </p>
+        <div className="flex justify-center items-center gap-4 md:gap-8 mt-6">
+          <Link
+            href="/#home"  
+            className="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-bold rounded-lg text-sm md:text-md px-6 py-2.5 transition-transform transform hover:scale-105 text-center"
+          >
+            <span className="flex items-center">
+              <i className="fas fa-clipboard-check mr-2"></i> Qurbani
+            </span>
+          </Link>
+          <Link
+            href="/services/aqeeqa" 
+            className="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-bold rounded-lg text-sm md:text-md px-6 py-2.5 transition-transform transform hover:scale-105 text-center"
+          >
+            <span className="flex items-center">
+              <i className="fas fa-baby mr-2"></i> Aqeeqah
+            </span>
+          </Link>
         </div>
       </div>
     </div>
   </div>
 </section>
 
+
 {/* Donation section start */}
-<div className="bg-green-900">
-  <div className="container mx-auto p-4 pt-8">
+<div className="bg-green-900 mt-8">
+  <div className="container mx-auto p-4 ">
     <div className="py-8">
       <h1 className="text-2xl sm:text-3xl font-bold text-center text-white">
         Qurbani / Udhiya Donation 2024
@@ -243,12 +252,11 @@ const Home = () => {
     </div>
   </div>
 </section>
-
 {/* why donate with me end */}
 
 <Faq />
 
-   </div>
+   </>
     
   );
 }

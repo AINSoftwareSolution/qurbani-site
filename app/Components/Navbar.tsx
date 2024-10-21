@@ -4,11 +4,9 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 import Link from "next/link";
 
 const Navbar = () => {
-  
   return (
-    <div className="bg-white shadow-sm">
+    <div className="bg-white shadow-sm fixed top-0 left-0 right-0 z-50">
       <div className="container mx-auto px-2 py-4 lg:px-12 flex items-center justify-between">
-        {/* Logo on the left */}
         <Link
           href="/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
@@ -74,15 +72,13 @@ const Navbar = () => {
               </Link>
             </li>
             <li> 
-    <button
-        type="button"
-        className="py-2 px-4 text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-bold rounded-lg text-md text-center"
-    >
-        Donate Now
-    </button>
-</li>
-
-
+              <button
+                type="button"
+                className="py-2 px-4 text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-bold rounded-lg text-md text-center"
+              >
+                Donate Now
+              </button>
+            </li>
           </ul>
         </div>
       </div>
@@ -91,5 +87,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
