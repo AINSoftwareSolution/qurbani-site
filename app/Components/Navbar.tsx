@@ -39,16 +39,16 @@ const Navbar = () => {
                 aria-haspopup="true"
                 aria-expanded="true"
                 tabIndex={0}
-                className="py-2 px-3 text-gray-800 dark:text-white hover:text-blue-500 font-semibold inline-flex items-center"
+                className="py-2 px-3 text-gray-800  hover:text-blue-500 font-semibold inline-flex items-center"
               >
                 Services
                 <MdKeyboardArrowDown className="ml-1" />
               </Link>
-              <ul className="absolute left-0 hidden group-hover:block bg-white dark:bg-gray-800 text-gray-800 font-semibold dark:text-white shadow-lg mt-2 rounded-md w-48 z-10">
+              <ul className="absolute left-0 hidden group-hover:block bg-white  text-gray-800 font-semibold  shadow-lg mt-2 rounded-md w-48 z-10">
                 <li>
                   <Link
                     href="/#Home"
-                    className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700"
+                    className="block px-4 py-2 hover:bg-gray-100 "
                   >
                     Qurbani
                   </Link>
@@ -56,7 +56,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     href="./services/aqeeqa"
-                    className="block px-4 py-3 hover:bg-gray-100 dark:hover:bg-red-500 text-black"
+                    className="block px-4 py-3 hover:bg-gray-100  text-black"
                   >
                     Aqeeqa
                   </Link>
@@ -74,7 +74,7 @@ const Navbar = () => {
             <li> 
               <button
                 type="button"
-                className="py-2 px-4 text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-bold rounded-lg text-md text-center"
+                className="py-2 px-4 text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200  font-bold rounded-lg text-md text-center"
               >
                 Donate Now
               </button>

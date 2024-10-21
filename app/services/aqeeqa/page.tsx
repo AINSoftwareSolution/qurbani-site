@@ -117,7 +117,7 @@ const Aqeeqa = () =>{
             {/* Donate Button */}
             <div className="text-center">
               
-              <button type="button" className="text-white bg-gradient-to-br text-lg font-bold w-80 py-3 me-2 mb-2 from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800  rounded-lg text-center"> 
+              <button type="button" className="text-white bg-gradient-to-br text-lg font-bold w-80 py-3 me-2 mb-2 from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200   rounded-lg text-center"> 
               <span className="fa fa-usd mr-2" aria-hidden="true"></span> View Bank List</button>
 
             </div>
@@ -140,7 +140,7 @@ new baby girl or boy!
       <h3 className="text-2xl text-center text-yellow-400 mb-2">Boy</h3>
       <h3 className="text-2xl text-center text-yellow-400 mt-2">$200</h3>
       <div className="text-center">
-      <button type="button" className="text-white bg-gradient-to-br from-green-400 to-blue-600 mt-3 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Qurbani</button>
+      <button type="button" className="text-white bg-gradient-to-br from-green-400 to-blue-600 mt-3 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200  font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Qurbani</button>
       </div>
     </div>
     <div className="w-full md:w-1/3 xl:w-1/3 p-6">
@@ -148,7 +148,7 @@ new baby girl or boy!
       <h3 className="text-2xl text-center text-yellow-400 mb-2">Girl</h3>
       <h3 className="text-2xl text-center text-yellow-400 mt-2">$100</h3>
       <div className="text-center">
-      <button type="button" className="text-white bg-gradient-to-br from-green-400 to-blue-600 mt-3 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Qurbani</button>
+      <button type="button" className="text-white bg-gradient-to-br from-green-400 to-blue-600 mt-3 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200  font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Qurbani</button>
       </div>
     </div>
   </div>

@@ -98,7 +98,7 @@ const Contact = () => {
             <form className="space-y-4 text-gray-700" onSubmit={handleSubmit}>
               <div className="flex space-x-4">
                 <div className="relative w-1/2">
-                  <label className="block mb-1 text-gray-700 dark:text-white font-semibold">
+                  <label className="block mb-1 text-gray-700  font-semibold">
                     First Name<span className="text-red-500">*</span>
                   </label>
                   <input
@@ -174,7 +174,7 @@ const Contact = () => {
 
               <button
                 type="submit"  // Changed to 'submit'
-                className="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-bold rounded-lg text-md px-8 py-2.5 text-center mb-2"
+                className="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200  font-bold rounded-lg text-md px-8 py-2.5 text-center mb-2"
               >
                 Submit
               </button>
