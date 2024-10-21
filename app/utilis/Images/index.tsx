@@ -5,6 +5,7 @@ import BoyImg from "./boy.jpg"
 import  GirlImg from "./girl.webp"
 import AqeeqaImg from "./Aqeeqah.jpg"
 import DonateImg from "./donate.jpg"
+import BannerImg from "./bannerimg.jpg"
 
 
 
@@ -16,5 +17,6 @@ export{
     BoyImg,
     GirlImg,
     AqeeqaImg,
-    DonateImg
+    DonateImg,
+    BannerImg
 };
