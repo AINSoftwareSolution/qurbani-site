@@ -30,7 +30,7 @@ const Home = () => {
               </p>
               <div className="flex justify-center items-center gap-4 md:gap-8 mt-6">
                 <Link
-                  href="/services/aqeeqa"
+                  href="#qurbani"
                   className="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200  font-bold rounded-lg text-sm md:text-md px-6 py-2.5 transition-transform transform hover:scale-105 text-center"
                 >
                   <span className="flex items-center">
@@ -54,7 +54,7 @@ const Home = () => {
 
 
       {/* Donation section start */}
-      <div className="bg-green-900">
+      <div className="bg-green-900" id="qurbani">
         <div className="container mx-auto p-4 ">
           <div className="py-8">
             <h1 className="text-2xl sm:text-3xl font-bold text-center text-white">
@@ -81,14 +81,14 @@ const Home = () => {
                   </Link>
                 </h4>
                 <div className="mt-4 text-center">
-                <Link href="/donation">
-    <button
-        type="button"
-        className="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 font-bold rounded-lg text-md px-8 py-2.5 text-center mb-2"
-    >
-        Donate Now
-    </button>
-</Link>
+                  <Link href="/donation">
+                    <button
+                      type="button"
+                      className="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 font-bold rounded-lg text-md px-8 py-2.5 text-center mb-2"
+                    >
+                      Donate Now
+                    </button>
+                  </Link>
                 </div>
               </div>
               {/* Goat / Sheep Section */}
@@ -111,14 +111,14 @@ const Home = () => {
                   </Link>
                 </h4>
                 <div className="mt-4 text-center">
-                <Link href="/donation">
-    <button
-        type="button"
-        className="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 font-bold rounded-lg text-md px-8 py-2.5 text-center mb-2"
-    >
-        Donate Now
-    </button>
-</Link>
+                  <Link href="/donation">
+                    <button
+                      type="button"
+                      className="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 font-bold rounded-lg text-md px-8 py-2.5 text-center mb-2"
+                    >
+                      Donate Now
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -130,36 +130,36 @@ const Home = () => {
 
       {/* Introduction section start */}
       <div className="container mx-auto p-4 pt-8 mb-8">
-  <div className="flex flex-col md:flex-row situation-wrap mb-12 mx-8">
-    {/* Left Column: Text Section */}
-    <div className="w-full md:w-1/2 col-left mb-8 md:mb-0">
-      <div className="text-4xl font-bold mt-4 mb-5 section-head">
-        <h1 className="text-4xl font-bold mt-4 mb-5">Introduction</h1>
-      </div>
-      <div className="text-lg text-wrap">
-        <p className="text-xl text-gray-700 leading-relaxed">
-          Qurbani is a great Sunnah of Ibrahim (AS) and the dearest deed to Allah (SWT).
-          As you are preparing to commemorate Prophet Ibrahim (AS) dedication through Qurbani on this Eid-ul-Adha.
-          Alkhidmat urges you to remember millions of underprivileged and undernourished families in Pakistan who eagerly await Eid-ul-Adha throughout the whole year to eat nutritious meat.
-          Alkhidmat Foundation Pakistan is doing Qurbani Fi Sabeel Lillah to distribute nutritious meat to millions of underprivileged and undernourished Pakistanis on this Eid-ul-Adha.
-          This year, Alkhidmat is also doing Qurbani specifically for the oppressed Palestinian families in Gaza.
-          Take advantage of Alkhidmat online Qurbani Fi Sabeel Lillah.
-        </p>
-      </div>
-    </div>
+        <div className="flex flex-col md:flex-row situation-wrap mb-12 mx-8">
+          {/* Left Column: Text Section */}
+          <div className="w-full md:w-1/2 col-left mb-8 md:mb-0">
+            <div className="text-4xl font-bold mt-4 mb-5 section-head">
+              <h1 className="text-4xl font-bold mt-4 mb-5">Introduction</h1>
+            </div>
+            <div className="text-lg text-wrap">
+              <p className="text-xl text-gray-700 leading-relaxed">
+                Qurbani is a great Sunnah of Ibrahim (AS) and the dearest deed to Allah (SWT).
+                As you are preparing to commemorate Prophet Ibrahim (AS) dedication through Qurbani on this Eid-ul-Adha.
+                Alkhidmat urges you to remember millions of underprivileged and undernourished families in Pakistan who eagerly await Eid-ul-Adha throughout the whole year to eat nutritious meat.
+                Alkhidmat Foundation Pakistan is doing Qurbani Fi Sabeel Lillah to distribute nutritious meat to millions of underprivileged and undernourished Pakistanis on this Eid-ul-Adha.
+                This year, Alkhidmat is also doing Qurbani specifically for the oppressed Palestinian families in Gaza.
+                Take advantage of Alkhidmat online Qurbani Fi Sabeel Lillah.
+              </p>
+            </div>
+          </div>
 
-    {/* Right Column: Image Section */}
-    <div className="w-full md:w-1/2 col-right video-section pl-0 md:pl-4 mt-8 md:mt-0">
-      <div className="w-full h-auto mt-4 mb-5">
-        <Image 
-          src={IntroductionImg} 
-          alt="Introduction" 
-          className="w-full h-auto object-contain rounded-lg"
-        />
+          {/* Right Column: Image Section */}
+          <div className="w-full md:w-1/2 col-right video-section pl-0 md:pl-4 mt-8 md:mt-0">
+            <div className="w-full h-auto mt-4 mb-5">
+              <Image
+                src={IntroductionImg}
+                alt="Introduction"
+                className="w-full h-auto object-contain rounded-lg"
+              />
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</div>
 
 
 

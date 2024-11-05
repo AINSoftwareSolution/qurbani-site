@@ -105,7 +105,7 @@ const Navbar = () => {
               <ul className="absolute left-0 hidden group-hover:block bg-white text-gray-800 font-semibold shadow-lg mt-2 rounded-md w-48 z-10">
                 <li>
                   <Link
-                    href="/#Home"
+                    href="/#qurbani"
                     className="block px-4 py-2 hover:bg-gray-100"
                   >
                     Qurbani
@@ -113,7 +113,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    href="./services/aqeeqa"
+                    href="/services/aqeeqa"
                     className="block px-4 py-3 hover:bg-gray-100 text-black"
                   >
                     Aqeeqa
