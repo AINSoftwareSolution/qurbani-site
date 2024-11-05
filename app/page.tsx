@@ -81,12 +81,14 @@ const Home = () => {
                   </Link>
                 </h4>
                 <div className="mt-4 text-center">
-                  <button
-                    type="button"
-                    className="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200  font-bold rounded-lg text-md px-8 py-2.5 text-center mb-2"
-                  >
-                    Donate Now
-                  </button>
+                <Link href="/donation">
+    <button
+        type="button"
+        className="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 font-bold rounded-lg text-md px-8 py-2.5 text-center mb-2"
+    >
+        Donate Now
+    </button>
+</Link>
                 </div>
               </div>
               {/* Goat / Sheep Section */}
@@ -109,12 +111,14 @@ const Home = () => {
                   </Link>
                 </h4>
                 <div className="mt-4 text-center">
-                  <button
-                    type="button"
-                    className="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200  font-bold rounded-lg text-md px-8 py-2.5 text-center mb-2"
-                  >
-                    Donate Now
-                  </button>
+                <Link href="/donation">
+    <button
+        type="button"
+        className="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 font-bold rounded-lg text-md px-8 py-2.5 text-center mb-2"
+    >
+        Donate Now
+    </button>
+</Link>
                 </div>
               </div>
             </div>

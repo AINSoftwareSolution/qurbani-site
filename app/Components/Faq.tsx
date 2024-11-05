@@ -17,7 +17,7 @@ const Faq = () => {
         <div className="accordion-group w-full"> 
           {accordionData.map((item, index) => (
             <div key={item.id} className="accordion mb-4">
-              <button
+              <div
                 className={`accordion-toggle flex justify-between items-center w-full p-4 bg-white border border-gray-300 rounded-lg ${
                   activeIndex === index ? 'active' : ''
                 }`}
@@ -42,7 +42,7 @@ const Faq = () => {
                     strokeLinejoin="round"
                   ></path>
                 </svg>
-              </button>
+              </div>
               {activeIndex === index && (
                 <div className="accordion-content px-4 py-2 bg-gray-100 rounded-lg">
                   <p className="text-base text-gray-900 leading-6">{item.content}</p>
