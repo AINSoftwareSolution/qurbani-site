@@ -45,7 +45,7 @@ const Navbar = () => {
         {/* Hamburger icon for mobile */}
         <button
           className={`text-2xl md:hidden block ${
-            isScrolled || menuOpen ? "text-gray-900" : "text-white"
+            isScrolled || menuOpen ? "text-gray-900" : "text-black"
           }`}
           onClick={() => setMenuOpen(!menuOpen)}
         >
