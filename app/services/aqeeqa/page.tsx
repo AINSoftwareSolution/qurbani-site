@@ -48,7 +48,7 @@ const Aqiqah = () =>{
         Aqiqah is a symbolic Islamic sacrifice performed in gratitude for the birth of a child. It involves the slaughter of an animal and is typically done on the 7th day after the birth of the baby.
       </p>
       <p className="text-gray-700">
-        By donating, you can support this tradition, whether it's for a boy or a girl, and help provide for those in need.
+        By donating, you can support this tradition, whether it&apos;s for a boy or a girl, and help provide for those in need.
       </p>
     </div>
 
