@@ -6,6 +6,9 @@ import  GirlImg from "./girl.webp"
 import AqeeqaImg from "./Aqeeqah.jpg"
 import DonateImg from "./donate.jpg"
 import BannerImg from "./bannerimg.jpg"
+import ContactUsImage from "./contact-us-banner.jpg"
+import AboutImage from "./about.jpg"
+import QRImage from "./QR1.jpg"
 
 
 
@@ -18,5 +21,8 @@ export{
     GirlImg,
     AqeeqaImg,
     DonateImg,
-    BannerImg
+    BannerImg,
+    ContactUsImage,
+    AboutImage,
+    QRImage
 };

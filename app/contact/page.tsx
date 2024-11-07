@@ -3,7 +3,9 @@ import React, { useState } from "react";
 import { MdAddIcCall } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
 import { MdOutlineMarkEmailRead } from "react-icons/md";
+import Image from "next/image";
 import Link from "next/link";
+import ContactUsImage  from "../utilis/Images/contact-us-banner.jpg";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -45,7 +47,25 @@ const Contact = () => {
   };
 
   return (
-    <div className="bg-gray-100 overflow-hidden mt-8">
+    <div className="overflow-hidden">
+ <div className="relative bg-green-900 text-white mb-8 overflow-hidden h-60 w-full">
+        <div className="absolute inset-0 flex flex-col justify-center items-center text-center p-4 z-10">
+          <h2 className="text-4xl font-bold mb-2">Contact Us</h2>
+          <p className="text-xl">Feel free To Contact Us</p>
+        </div>
+        
+        <div className="absolute inset-0 opacity-40">
+          <Image
+            src={ContactUsImage}
+            alt="About Banner"
+            layout="fill"
+            objectFit="cover"
+            className="object-cover"
+          />
+        </div>
+      </div>
+
+        
       <div className="container inset-0 mx-auto px-2 lg:px-12 py-16 mt-4 " id="contact">
         <h2 className=" text-center text-3xl mb-3 font-bold"> Contact us </h2>
         <h4 className=" text-center mb-10 text-sm uppercase tracking-wider font-bold ">
@@ -182,6 +202,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+    
     </div>
   );
 };

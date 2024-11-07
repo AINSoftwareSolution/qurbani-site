@@ -13,8 +13,8 @@ const Home = () => {
           className="relative mx-auto flex items-center justify-center min-h-screen bg-cover bg-center"
           style={{
             backgroundImage: `url(${BannerImg.src})`,
-            backgroundSize: 'cover', // Ensures the image covers the section
-            backgroundPosition: 'center', // Centers the image
+            backgroundSize: 'cover', 
+            backgroundPosition: 'center', 
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/30"></div>
@@ -23,14 +23,14 @@ const Home = () => {
             {/* Text Section */}
             <div className="text-center relative z-10 max-w-3xl p-4 md:p-8">
               <h1 className="font-sans text-4xl sm:text-5xl md:text-6xl leading-tight text-white font-bold">
-                Online Booking Qurbani and Aqeeqah
+                Online Booking Qurbani and Aqiqah
               </h1>
               <p className="font-sans text-base sm:text-lg md:text-xl text-white my-4">
-                Experience a seamless and fulfilling process for your Qurbani and Aqeeqah needs.
+                Experience a seamless and fulfilling process for your Qurbani and Aqiqah needs.
               </p>
               <div className="flex justify-center items-center gap-4 md:gap-8 mt-6">
                 <Link
-                  href="/services/aqeeqa"
+                  href="/services/aqiqah"
                   className="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200  font-bold rounded-lg text-sm md:text-md px-6 py-2.5 transition-transform transform hover:scale-105 text-center"
                 >
                   <span className="flex items-center">
@@ -38,12 +38,12 @@ const Home = () => {
                   </span>
                 </Link>
                 <Link
-                  href="/services/aqeeqa"
+                  href="/services/aqiqah"
                   className="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl 
                   focus:ring-4 focus:outline-none focus:ring-green-200  font-bold rounded-lg text-sm md:text-md 
                   px-6 py-2.5 transition-transform transform hover:scale-105 text-center">
                   <span className="flex items-center">
-                    Aqeeqah
+                    Aqiqah
                   </span>
                 </Link>
               </div>
@@ -183,9 +183,11 @@ const Home = () => {
                   <p>You can donate Qurbani online using any Visa or MasterCard. Donation through Jazzcash is also available.</p>
                 </div>
                 <div className="card-footer mt-4">
-                  <button type="button" className="text-white bg-gradient-to-br text-lg font-bold w-full py-4 from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200  rounded-lg text-center">
+                <Link href="/donation" target="blank">
+                  <button type="button" className="text-white bg-gradient-to-br text-lg font-bold w-full py-4 from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200  rounded-lg text-center ">
                     Donate Qurbani Online
                   </button>
+                  </Link>
                 </div>
               </div>
               {/* Second card */}

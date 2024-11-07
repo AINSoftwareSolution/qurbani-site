@@ -116,7 +116,7 @@ const Navbar = () => {
                     href="./services/aqeeqa"
                     className="block px-4 py-3 hover:bg-gray-100 text-black"
                   >
-                    Aqeeqa
+                    Aqiqah
                   </Link>
                 </li>
               </ul>
@@ -134,12 +134,14 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
+            <Link href="/donation" target="_blank">
               <button
                 type="button"
                 className="py-2 px-4 text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 font-bold rounded-lg text-md text-center"
               >
                 Donate Now
               </button>
+              </Link>
             </li>
           </ul>
         </div>

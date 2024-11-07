@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import QRImage from "../utilis/Images/QR1.jpg";
+import { QRImage } from '../utilis/Images';
 
 const DonatePage = () => {
     return (
@@ -9,7 +9,7 @@ const DonatePage = () => {
                 <h1 className="text-2xl sm:text-3xl font-bold text-white mb-4">
                     Thank You for Your Donation!
                 </h1>
-                <div className="mb-4">
+                <div className="mb-4 ">
                     <Image 
                         src={QRImage} 
                         className="w-50 h-auto" 
